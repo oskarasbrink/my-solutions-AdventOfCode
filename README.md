@@ -1,2 +1,2 @@
 # my-solutions-AdventOfCode
-Here I will post my solutions to some of the problems in advent of code
+I will here post my solutions to problems in the [Advent of Code 2022](https://adventofcode.com/2022/about). I haven't done C++ in years, so this will be the main langage.
