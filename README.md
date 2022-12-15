@@ -1,2 +1,2 @@
 # my-solutions-AdventOfCode
-I will here post my solutions to problems in the [Advent of Code 2022](https://adventofcode.com/2022/about). I haven't done C++ in years, so this will be the main langage. I won't post any of the recent problems while people are still competing for points.
+I will here post my solutions to problems in the [Advent of Code 2022](https://adventofcode.com/2022/about). Will be doing it to learn Scala. I started with C++ since i haven't touched it in years, but i discovered c++ string manipulation is so annoying. 
