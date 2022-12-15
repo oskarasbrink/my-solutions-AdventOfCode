@@ -1,6 +1,0 @@
-00_Introduction
-099_extra_Ensemble
-02_Ensemble_Training
-01_Human_Pose_Data
-03_Ensemble_Evaluation
-libs
