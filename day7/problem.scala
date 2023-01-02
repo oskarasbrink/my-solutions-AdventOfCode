@@ -138,15 +138,15 @@ end dir
 
     //part two
     
-    var topG: Int = ogParent.calcSizes()    
+    var whatever: Int = ogParent.calcSizes()    
     ogParent.printSizes()
     var availableSpace:Int = 70000000
     var neededSpace:Int = 30000000
     var max:Int = 0
-    ogParent.bestList += topG
+    ogParent.bestList += whatever
     var best_list:ListBuffer[Int] = ogParent.bestList.sorted.reverse
     println(best_list)
-    var unusedSpace:Int = availableSpace - topG
+    var unusedSpace:Int = availableSpace - whatever
     breakable{
     for(dir<-0 to best_list.length-1){
         
