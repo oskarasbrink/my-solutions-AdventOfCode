@@ -20,7 +20,7 @@ def initNestedList(s:String): ListBuffer[ListBuffer[Char]] = {
     for(line <- lines){
 
         if(line == "" || line(1) == '1'){
-            // do something nice here. or not.
+            // do something nice here. or not. placeholder.
         }else if(!(line contains "from")){
             for(i <- 0 to ((line.length+1)/4 - 1)){
                 if(!line(1 + 4*i).isWhitespace){

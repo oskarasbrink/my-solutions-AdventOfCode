@@ -108,7 +108,6 @@ end dir
                 if(parent.dirname!="/"){
                     parent = parent.parent
                 }
-                
                 //println(s"parent is now ${parent.dirname}")
                 //println(s"current dir is now ${currentDir.dirname}")
                 
@@ -158,8 +157,5 @@ end dir
         }
     }
     print(max)
-    //println(ogParent.returnRightSizeDirs())
-    //println(ogParent.bestSum)
-    //println(ogParent.bestList)
     
 }

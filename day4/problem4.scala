@@ -18,17 +18,12 @@ import scala.collection.mutable.ListBuffer
         if (((n1 <= n3) && (n2 >= n4)) || (n3 <= n1 && n4 >= n2)){
             numContainedRanges += 1
         }
-        else{
-            numContainedRanges += 0
-        }
         
         //part two
         if (((n3 <= n2) && (n3 >= n1)) || (n1 <= n4 && n1 >= n3)){
             numPartlyContainedRanges += 1
         }
-        else{
-            numPartlyContainedRanges += 0
-        }
+
     }
     println(numContainedRanges)
     println(numPartlyContainedRanges)
